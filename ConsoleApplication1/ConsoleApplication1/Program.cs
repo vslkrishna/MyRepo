@@ -14,7 +14,9 @@ namespace ConsoleApplication1
         /// <summary>
         /// Calculator Methods
         /// </summary>
-        /// <param name="args"></param>
+        /// <param name="a">input parameter</param>
+        /// <param name="b">input parameter</param>
+        /// <param name="c">result parameter</param>
         static void Main(string[] args)
         {
             var calc = new CalculatorLib.Calculator();
