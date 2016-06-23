@@ -12,5 +12,9 @@ namespace CalculatorLib
         {
             return a + b;
         }
+        public int Muliply(int a, int b)
+        {
+            return a * b;
+        }
     }
 }
