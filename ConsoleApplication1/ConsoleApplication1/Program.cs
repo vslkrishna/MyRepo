@@ -6,8 +6,15 @@ using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
+    /// <summary>
+    /// Calculator Class
+    /// </summary>
     class Program
     {
+        /// <summary>
+        /// Calculator Methods
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             var calc = new CalculatorLib.Calculator();
