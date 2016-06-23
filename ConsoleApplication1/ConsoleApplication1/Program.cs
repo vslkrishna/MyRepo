@@ -11,9 +11,13 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             var calc = new CalculatorLib.Calculator();
-            var result = calc.Sum(3, 4);
 
+            var result = calc.Sum(3, 4);
             Console.WriteLine(result);
+
+            result = calc.Muliply(3, 4);
+            Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }
