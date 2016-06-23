@@ -18,6 +18,9 @@ namespace ConsoleApplication1
             result = calc.Muliply(3, 4);
             Console.WriteLine(result);
 
+            result = calc.Divide(3, 4);
+            Console.WriteLine(result);
+
             Console.ReadLine();
         }
     }
